@@ -40,19 +40,19 @@ li {
   box-shadow: 3px 3px 30px rgba(1,1,1,0.2)
 }
 
-#h2g2 {
+#page-content #h2g2 {
   background: url("http://ia.media-imdb.com/images/M/MV5BMjEwOTk4NjU2MF5BMl5BanBnXkFtZTYwMDA3NzI3._V1_SX640_SY720_.jpg");
   background-size: cover;
   background-width: 150px;
 }
 
-#terabithia {
+#page-content #terabithia {
   background: url("http://ia.media-imdb.com/images/M/MV5BMTMzOTk1MzIyN15BMl5BanBnXkFtZTcwNTM3MjczMQ@@._V1_SX640_SY720_.jpg");
   background-size: cover;
   background-width: 150px;
 }
 
-#kingsmen {
+#page-content #kingsmen {
   background: url("http://ia.media-imdb.com/images/M/MV5BMTkxMjgwMDM4Ml5BMl5BanBnXkFtZTgwMTk3NTIwNDE@._V1_SX640_SY720_.jpg");
   background-size: cover;
   background-width: 150px;
