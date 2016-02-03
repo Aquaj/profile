@@ -8,56 +8,67 @@
   <title>Profile page of Jérémie BONAL</title>
 </head>
 <body>
-  <div id="sidebar">
+<!--   <div id="sidebar">
   <a href="#profile-info"><i class="fa fa-info-circle"></i></a>
   <a href="#social"><i class="fa fa-link"></i></a>
   <a href="#movies"><i class="fa fa-film"></i></a>
   </div>
   <div id="page-content">
-    <div id="profile-info">
-      <img class="img-circle blue-border" src="my-face.jpeg" alt="Photo of Jérémie Bonal" />
-      <h1>Jérémie Bonal</h1>
-      <h2>Developer / Programmer</h2>
+  -->
+  <div class="wrapper">
+    <div class="left">
+      <div id="profile-info" class="content">
+        <img class="img-circle blue-border" src="my-face.jpeg" alt="Photo of Jérémie Bonal" />
+        <h1>Jérémie Bonal</h1>
+        <h2>Developer Programmer</h2>
+      </div>
+      <div id="social" class="content">
+        <ul>
+          <li><a href="https://www.facebook.com/jeremie.bonal" target="_blank"><i class="fa fa-facebook-square"></i></a></li>
+          <li><a href="https://twitter.com/Akwajawk" target="_blank"><i class="fa fa-twitter-square"></i></a></li>
+          <li><a href="https://github.com/aquaj" target="_blank"><i class="fa fa-github-square"></i></a></li>
+        </ul>
+      </div>
     </div>
-    <div id="social">
-    <ul>
-      <li><a href="https://www.facebook.com/jeremie.bonal" target="_blank"><i class="fa fa-facebook-square"></i></a></li>
-      <li><a href="https://twitter.com/Akwajawk" target="_blank"><i class="fa fa-twitter-square"></i></a></li>
-      <li><a href="https://github.com/aquaj" target="_blank"><i class="fa fa-github-square"></i></a></li>
-    </ul>
+    <div class="right">
+      <div id="movies" class="content">
+      <table>
+        <thead>
+          <th style="padding: 15px">
+            Movies
+          </th>
+        </thead>
+        <tbody>
+          <tr class="movie">
+            <td id="h2g2" class="poster">
+            </td>
+            <td class="description">
+              Hitchhiker's Guide to the Galaxy
+            </td>
+          </tr>
+          <tr class="movie">
+            <td id="terabithia" class="poster">
+            </td>
+            <td class="description">
+              Bridge to Terabithia
+            </td>
+          </tr>
+          <tr class="movie">
+            <td id="kingsmen" class="poster">
+            </td>
+            <td class="description">
+              Kingsmen : The Secret Service
+            </td>
+          </tr>
+        </tbody>
+      </table>
+      </div>
     </div>
-    <div id="movies">
-    <table>
-      <thead>
-        <th style="padding: 15px">
-          Movies
-        </th>
-      </thead>
-      <tbody>
-        <tr class="movie">
-          <td id="h2g2" class="poster">
-          </td>
-          <td class="description">
-            Hitchhiker's Guide to the Galaxy
-          </td>
-        </tr>
-        <tr class="movie">
-          <td id="terabithia" class="poster">
-          </td>
-          <td class="description">
-            Bridge to Terabithia
-          </td>
-        </tr>
-        <tr class="movie">
-          <td id="kingsmen" class="poster">
-          </td>
-          <td class="description">
-            Kingsmen : The Secret Service
-          </td>
-        </tr>
-      </tbody>
-    </table>
+    <div class="clear"></div>
+    <div id="footer" class="content">
+      <h4>Made during Le Wagon's FullStack Curriculum</h4>
     </div>
+  </div>
 </div>
 </body>
 </html>
